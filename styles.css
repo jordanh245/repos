@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	
 
 }
 
@@ -10,28 +11,63 @@ body {
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	
 	
 }
-/* .pictureDiv {
-	height: 100vh;
-
-} */
 
 .pictureDiv {
 	background-position: center center;
 	background-image: url("pictureLeft.jpg");
 	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	color: white;
-	text-align: center;
+	
 	
 }
 
 img {
-	width: 50vw;
+	width: 35vw;
 	height: 100vh;
+}
 
 
+.formInfo{
+	display: flex;
+	flex-direction: column;  
+	/* makes the width smaller? remove if you have issues with sizing */
+	background-color: blueviolet;
+	padding: 35px;
+	
+}
+
+.inputBox{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: blue;
+}
+
+.pInfo{
+	background-color: aqua;
+	font-size: 20px;
+	padding: 20px;
+	padding-bottom: 40px;
+}
+
+.pInfo2 {
+	padding-top: 10px;
+}
+
+input{
+	width: 250px;
+	height: 35px;
+	border-radius: 5px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
 }
